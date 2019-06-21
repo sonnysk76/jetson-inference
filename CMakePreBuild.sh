@@ -83,38 +83,3 @@ wget --no-check-certificate 'https://nvidia.box.com/shared/static/3qdg3z5qvl8iwj
 tar -xzvf DetectNet-COCO-Dog.tar.gz -C ../data/networks
 
 
-# Segmentation Nets (uncomment to download)
-wget --no-check-certificate 'https://nvidia.box.com/shared/static/xj20b6qopfwkkpqm12ffiuaekk6bs8op.gz' -O FCN-Alexnet-Pascal-VOC.tar.gz
-tar -xzvf FCN-Alexnet-Pascal-VOC.tar.gz -C ../data/networks
-
-#wget --no-check-certificate 'https://nvidia.box.com/shared/static/u5ey2ws0nbtzyqyftkuqazx1honw6wry.gz' -O FCN-Alexnet-SYNTHIA-CVPR16.tar.gz
-#tar -xzvf FCN-Alexnet-SYNTHIA-CVPR16.tar.gz -C ../data/networks
-
-#wget --no-check-certificate 'https://nvidia.box.com/shared/static/ydgmqgdhbvul6q9avoc9flxr3fdoa8pw.gz' -O FCN-Alexnet-SYNTHIA-Summer-HD.tar.gz
-#tar -xzvf FCN-Alexnet-SYNTHIA-Summer-HD.tar.gz -C ../data/networks
-
-#wget --no-check-certificate 'https://nvidia.box.com/shared/static/vbk5ofu1x2hwp9luanbg4o0vrfub3a7j.gz' -O FCN-Alexnet-SYNTHIA-Summer-SD.tar.gz
-#tar -xzvf FCN-Alexnet-SYNTHIA-Summer-SD.tar.gz -C ../data/networks
-
-wget --no-check-certificate 'https://nvidia.box.com/shared/static/mh121fvmveemujut7d8c9cbmglq18vz3.gz' -O FCN-Alexnet-Cityscapes-HD.tar.gz
-tar -xzvf FCN-Alexnet-Cityscapes-HD.tar.gz -C ../data/networks
-
-#wget --no-check-certificate 'https://nvidia.box.com/shared/static/pa5d338t9ntca5chfbymnur53aykhall.gz' -O FCN-Alexnet-Cityscapes-SD.tar.gz
-#tar -xzvf FCN-Alexnet-Cityscapes-SD.tar.gz -C ../data/networks
-
-wget --no-check-certificate 'https://nvidia.box.com/shared/static/y1mzlwkmytzwg2m7akt7tcbsd33f9opz.gz' -O FCN-Alexnet-Aerial-FPV-720p.tar.gz
-tar -xzvf FCN-Alexnet-Aerial-FPV-720p.tar.gz -C ../data/networks
-
-#wget --no-check-certificate 'https://nvidia.box.com/shared/static/4z5lmlja13blj3mdn6vesrft57p30446.gz' -O FCN-Alexnet-Aerial-FPV-4ch-720p.tar.gz
-#tar -xzvf FCN-Alexnet-Aerial-FPV-4ch-720p.tar.gz -C ../data/networks
-
-
-# Deep Homography
-wget --no-check-certificate 'https://nvidia.box.com/shared/static/nlqbsdnt76y0nmkwdzxkg4zbvhk4bidh.gz' -O Deep-Homography-COCO.tar.gz
-tar -xzvf Deep-Homography-COCO.tar.gz -C ../data/networks
-
-# Super Resolution
-wget --no-check-certificate 'https://nvidia.box.com/shared/static/a99l8ttk21p3tubjbyhfn4gh37o45rn8.gz' -O Super-Resolution-BSD500.tar.gz
-tar -xzvf Super-Resolution-BSD500.tar.gz -C ../data/networks
-
-echo "[Pre-build]  Finished CMakePreBuild script"
